@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.sco.Third_windowController">
+   <right>
+      <AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #bbbbbb;" stylesheets="@styles.css" BorderPane.alignment="CENTER">
+         <children>
+            <Label layoutX="107.0" layoutY="56.0" text="Please Scan your items">
+               <font>
+                  <Font name="System Bold" size="34.0" />
+               </font>
+            </Label>
+            <Label layoutX="14.0" layoutY="326.0" text="TOTAL :">
+               <font>
+                  <Font name="Arial Bold" size="27.0" />
+               </font>
+            </Label>
+            <Button fx:id="thirdWinnextButton" layoutX="448.0" layoutY="304.0" mnemonicParsing="false" onAction="#thirdWinnextButtonOnAction" prefHeight="54.0" prefWidth="122.0" text="NEXT">
+               <font>
+                  <Font name="System Bold" size="30.0" />
+               </font>
+            </Button>
+            <Label fx:id="totalerrorlable" layoutX="300.0" layoutY="295.0" textFill="#f30b0b" />
+            <Label fx:id="welcomeLabel" alignment="CENTER" layoutX="112.0" layoutY="14.0" prefHeight="50.0" prefWidth="354.0">
+               <font>
+                  <Font name="System Bold" size="34.0" />
+               </font>
+            </Label>
+            <Label layoutX="319.0" layoutY="121.0" text="ITEM CODE: ">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font></Label>
+            <TextField fx:id="itemCodeTextField1" layoutX="391.0" layoutY="117.0" prefHeight="0.0" prefWidth="100.0" />
+            <Button fx:id="Doneitem" layoutX="509.0" layoutY="117.0" mnemonicParsing="false" onAction="#DoneitemOnAction" prefHeight="22.0" prefWidth="66.0" text="DONE">
+               <font>
+                  <Font size="8.0" />
+               </font></Button>
+            <ScrollPane layoutX="22.0" layoutY="107.0" prefHeight="185.0" prefWidth="267.0">
+               <content>
+                  <Label fx:id="resultItem" alignment="TOP_LEFT" contentDisplay="TOP" prefHeight="184.0" prefWidth="267.0" />
+               </content>
+            </ScrollPane>
+            <Label fx:id="resulwarninhgtItem" layoutX="319.0" layoutY="149.0" prefHeight="19.0" prefWidth="258.0" textFill="#df0f0f" />
+            <Label fx:id="totalamount" layoutX="121.0" layoutY="327.0" prefHeight="34.0" prefWidth="110.0" textFill="#ec2637">
+               <font>
+                  <Font name="System Bold" size="24.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </right>
+</BorderPane>

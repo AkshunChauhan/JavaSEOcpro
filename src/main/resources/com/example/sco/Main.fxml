@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #bbbbbb;" styleClass="buttonStyle" stylesheets="@styles.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.sco.MainController">
+   <children>
+      <Button fx:id="startButton" layoutX="168.0" layoutY="141.0" mnemonicParsing="false" onAction="#handleStartButtonClick" prefHeight="118.0" prefWidth="263.0" style="-fx-background-color: #ec2637;" styleClass="buttonStyle" stylesheets="@styles.css" text="START" textFill="#fafafa">
+         <font>
+            <Font name="Calibri Bold" size="65.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

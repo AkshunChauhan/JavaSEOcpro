@@ -1,0 +1,196 @@
+.buttonStyle {
+    -fx-background-color: #1e1e1e;
+}
+
+#startButton {
+    -fx-background-color: #ec2637;
+    -fx-text-fill: #ffffff;
+    -fx-font-family: 'Arial Black';
+    -fx-font-size: 48.0;
+    -fx-pref-height: 118.0;
+    -fx-pref-width: 263.0;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.8), 10, 0, 0, 0);
+}
+
+#startButton:hover {
+    -fx-background-color: #db5565;
+}
+
+#startButton:pressed {
+    -fx-background-color: #bbbbbb;
+}
+
+/* styles.css */
+
+.buttonStyle {
+    -fx-background-color: #1e1e1e;
+}
+
+#joinButton, #skipButton, #nextButton {
+    -fx-background-color: #ec2637;
+    -fx-text-fill: #ffffff;
+    -fx-font-family: 'System Bold';
+    -fx-font-size: 18.0;
+    -fx-pref-height: 60.0;
+    -fx-pref-width: 86.0;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.8), 10, 0, 0, 0);
+}
+
+#joinButton:hover, #skipButton:hover, #nextButton:hover {
+    -fx-background-color: #db5565;
+}
+
+#joinButton:pressed, #skipButton:pressed, #nextButton:pressed {
+    -fx-background-color: #bbbbbb;
+}
+/* styles.css */
+
+.loginMessageLabel {
+    -fx-font-size: 11.0;
+    -fx-text-fill: #f20f0f;
+}
+
+.phoneMessageLabel {
+    -fx-font-size: 13.0;
+    -fx-text-fill: #f20c0c;
+}
+/* styles.css */
+
+#joinButton2, #skipButton2 {
+    -fx-background-color: #ec2637;
+    -fx-text-fill: #ffffff;
+    -fx-font-family: 'System Bold';
+    -fx-font-size: 18.0;
+    -fx-pref-height: 44.0;
+    -fx-pref-width: 87.0;
+}
+
+#joinButton2:hover, #skipButton2:hover {
+    -fx-background-color: #db5565;
+}
+
+#joinButton2:pressed, #skipButton2:pressed {
+    -fx-background-color: #bbbbbb;
+}
+
+.loginMessageLabel, #phoneMessage2Label, #emailMessage2Label {
+    -fx-font-size: 13.0;
+}
+
+.loginMessageLabel {
+    -fx-text-fill: #f20b0b;
+}
+
+#phoneMessage2Label {
+    -fx-text-fill: #f50e0e;
+}
+
+#emailMessage2Label {
+    -fx-text-fill: #f80d0d;
+}
+/* styles.css */
+
+.labelStyle {
+    -fx-font-family: 'System Bold';
+}
+
+#thirdWinnextButton {
+    -fx-background-color: #ec2637;
+    -fx-text-fill: #ffffff;
+    -fx-font-family: 'System Bold';
+    -fx-font-size: 30.0;
+    -fx-pref-height: 54.0;
+    -fx-pref-width: 122.0;
+}
+
+#Doneitem {
+    -fx-background-color: #ec2637;
+    -fx-text-fill: #ffffff;
+    -fx-font-family: 'System Bold';
+    -fx-font-size: 12.0; /* You can change the size as needed */
+    -fx-pref-height: 24.0; /* You can change the height as needed */
+    -fx-pref-width: 50.0; /* You can change the width as needed */
+}
+
+#thirdWinnextButton:hover, #Doneitem:hover {
+    -fx-background-color: #db5565;
+}
+
+#thirdWinnextButton:pressed, #Doneitem:pressed {
+    -fx-background-color: #bbbbbb;
+}
+
+#totalerrorlable, #resulwarninhgtItem {
+    -fx-font-size: 13.0;
+    -fx-text-fill: #f30b0b;
+}
+
+#resultItem {
+    -fx-font-size: 14.0;
+}
+
+#totalamount {
+    -fx-font-family: 'System Bold ';
+    -fx-font-size: 10;
+    -fx-text-fill: #f30b0b;
+}
+/* styles.css */
+
+.labelStyle {
+    -fx-font-family: 'System Bold';
+}
+#plusButtonPressed, #minusButtonPressed, #BagDoneButton {
+    -fx-background-color: #ec2637;
+    -fx-text-fill: #ffffff;
+    -fx-font-family: 'System Bold';
+    -fx-font-size: 24.0;
+    -fx-pref-height: 55.0;
+    -fx-pref-width: 55.0;
+}
+ #BagDoneButton {
+    -fx-background-color: #ec2637;
+    -fx-text-fill: #ffffff;
+    -fx-font-family: 'System Bold';
+    -fx-font-size: 24.0;
+    -fx-pref-height: 54.0;
+    -fx-pref-width: 97.0;
+}
+
+#plusButtonPressed:hover, #minusButtonPressed:hover, #BagDoneButton:hover {
+    -fx-background-color: #db5565;
+}
+
+#plusButtonPressed:pressed, #minusButtonPressed:pressed, #BagDoneButton:pressed {
+    -fx-background-color: #bbbbbb;
+}
+
+#TotalAmountLable, #totalplusbaglable {
+    -fx-font-size: 31.0;
+}
+
+#totalplusbaglable {
+    -fx-font-size: 18.0;
+}
+
+#totalamount {
+    -fx-font-size: 18.0;
+}
+
+#BagDoneButton {
+    -fx-font-size: 24.0; /* You can change the size as needed */
+    -fx-pref-height: 51.0; /* You can change the height as needed */
+    -fx-pref-width: 97.0; /* You can change the width as needed */
+}
+
+#totalamount {
+    -fx-font-size: 16.0;
+}
+/* styles.css */
+
+#thanksLabel {
+    -fx-background-color: #ec2637;
+    -fx-text-fill: #ffffff;
+    -fx-font-family: 'System Bold Italic';
+    -fx-font-size: 39.0;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.8), 10, 0, 0, 0);
+}

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="355.0" prefWidth="600.0" stylesheets="@styles.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.sco.Second_windowController">
+    <stylesheets>
+        <String fx:value="@styles.css" />
+    </stylesheets>
+   <top>
+        <AnchorPane prefHeight="355.0" prefWidth="600.0" style="-fx-background-color: #bbbbbb;" stylesheets="@styles.css" BorderPane.alignment="CENTER">
+            <children>
+                <TextField fx:id="phonenumberTextField" layoutX="272.0" layoutY="148.0" prefHeight="26.0" prefWidth="181.0" />
+                <Label layoutX="92.0" layoutY="144.0" text="Phone number :">
+                    <font>
+                        <Font name="System Bold" size="24.0" />
+                    </font>
+                </Label>
+                <Button fx:id="joinButton" layoutX="182.0" layoutY="273.0" mnemonicParsing="false" onAction="#joinButtonOnAction" prefHeight="60.0" prefWidth="86.0" text="JOIN">
+                    <font>
+                        <Font name="System Bold" size="18.0" />
+                    </font>
+                </Button>
+                <Button fx:id="skipButton" layoutX="351.0" layoutY="272.0" mnemonicParsing="false" onAction="#skipButton" prefHeight="57.0" prefWidth="91.0" text="SKIP">
+                    <font>
+                        <Font name="System Bold" size="18.0" />
+                    </font>
+                </Button>
+                <Label fx:id="loginMessageLabel" layoutX="225.0" layoutY="229.0" prefHeight="19.0" prefWidth="173.0" styleClass="loginMessageLabel">
+                    <font>
+                        <Font size="11.0" />
+                    </font>
+                </Label>
+                <Button fx:id="nextButton" layoutX="499.0" layoutY="139.0" mnemonicParsing="false" onAction="#nextButtonOnAction" prefHeight="38.0" prefWidth="66.0" text="Next">
+               <font>
+                  <Font name="Arial Bold" size="15.0" />
+               </font></Button>
+            <Label fx:id="phoneMessageLabel" alignment="CENTER" layoutX="275.0" layoutY="179.0" prefHeight="19.0" prefWidth="175.0" stylesheets="@styles.css" textFill="#f20c0c">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Label>
+            <Label layoutX="103.0" layoutY="35.0" prefHeight="42.0" prefWidth="394.0" text="Enter Your Phone Number">
+               <font>
+                  <Font name="Calibri Bold" size="35.0" />
+               </font>
+            </Label>
+            <Label layoutX="149.0" layoutY="71.0" prefHeight="42.0" prefWidth="302.0" text="If You're Already a Club Member" underline="true">
+               <font>
+                  <Font name="Calibri Bold Italic" size="22.0" />
+               </font>
+            </Label>
+            </children>
+        </AnchorPane>
+   </top>
+</BorderPane>
